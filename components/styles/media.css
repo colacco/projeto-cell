@@ -3,13 +3,21 @@
     p{
         color: red;
     }
+
+    section{
+        height: 60vh;
+    }
  
     section > div.img{
+        display: inline;
         float: left;
+        margin: 30%;
     }
 
     section > div.content{
-    float: right;
+        display: inline;
+        float: right;
+        margin: 70%;
     }
 }
 

@@ -17,12 +17,17 @@ Grandes Telas: Acima de 1200px
     color:white;
 }
 
+
 :root{
     --cor1: #D06CFC;
     --cor2: #725B7C;
     --cor3: #E7B8FC;
     --cor4: #67357C;
     --cor5: #B893C9;
+}
+
+section{
+    height: 706px;
 }
 
 section#cell{
