@@ -12,11 +12,9 @@ Grandes Telas: Acima de 1200px
 
 *{
     margin: 0px;
-    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
 }
-
 
 :root{
     --cor1: #D06CFC;
@@ -26,32 +24,40 @@ Grandes Telas: Acima de 1200px
     --cor5: #B893C9;
 }
 
-section{
-    height: 706px;
+body{
+    width: 98vw;
+    overflow-x: hidden;
 }
 
-section#cell{
-    background-color: var(--cor1);
+section{
     padding: 30px;
 }
 
-section#cell > div > h1{
+section > div > img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+section > div > h1.title{
     margin-bottom: 20px;
     text-shadow: 1px 1px 1px black;
     text-align: center;
 }
 
-section#cell > div > p{
+section > div > h2.title{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+section > div > p.text{
     margin-bottom: 20px;
     text-shadow: 1px 1px 1px black;
 }
 
-section#cell > div > img{
-    display: inline-block;
-    width: 50%;
+section > div.img{
     margin: auto;
-    position: relative;
-    left: 30%;
 }
 
 #org{
@@ -59,172 +65,36 @@ section#cell > div > img{
     text-align: center;
 }
 
+section#cell{
+    background-color: var(--cor1);
+}
+
 section#nucleus{
     background-color: var(--cor2);
-    padding: 30px;
-}
-
-section#nucleus > div > h2{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-
-section#nucleus > div > p{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-}
-
-section#nucleus > div > img{
-    display: inline-block;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    left: 30%;
 }
 
 section#er{
     background-color: var(--cor3);
-    padding: 30px;
-}
-
-section#er > div > h2{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-
-section#er > div > p{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-}
-
-section#er > div > img{
-    display: inline-block;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    left: 30%;
 }
 
 section#vacuole{
     background-color: var(--cor4);
-    padding: 30px;
-}
-
-section#vacuole > div > h2{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-
-section#vacuole > div > p{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-}
-
-section#vacuole > div > img{
-    display: inline-block;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    left: 30%;
 }
 
 section#mitochondria{
     background-color: var(--cor1);
-    padding: 30px;
-}
-
-section#mitochondria > div > h2{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-
-section#mitochondria > div > p{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-}
-
-section#mitochondria > div > img{
-    display: inline-block;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    left: 30%;
 }
 
 section#lysosome{
     background-color: var(--cor2);
-    padding: 30px;
-}
-
-section#lysosome > div > h2{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-
-section#lysosome > div > p{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-}
-
-section#lysosome > div > img{
-    display: inline-block;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    left: 30%;
 }
 
 section#golgi{
     background-color: var(--cor3);
-    padding: 30px;
-}
-
-section#golgi > div > h2{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-
-section#golgi > div > p{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-}
-
-section#golgi > div > img{
-    display: inline-block;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    left: 30%;
 }
 
 section#centrosome{
     background-color: var(--cor4);
-    padding: 30px;
-}
-
-section#centrosome > div > h2{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-    text-align: center;
-}
-
-section#centrosome > div > p{
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 1px black;
-}
-
-section#centrosome > div > img{
-    display: inline-block;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    left: 30%;
 }
 
 footer{
