@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Célula</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="components/styles/style.css">
+    <link rel="stylesheet" href="components/styles/media.css">
 </head>
 <body>
     <section id="cell">
-        <div>
+        <div class="content">
             <h1>Célula Eucarionte (Animal)</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil perferendis quibusdam cumque vel mollitia ut optio aliquam exercitationem, aut velit asperiores provident ea magnam. Molestiae vel reprehenderit accusantium maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cumque autem officiis dolorem fuga quas possimus illo ab ducimus explicabo laudantium sed eos temporibus nulla beatae labore saepe, reprehenderit similique.</p>
         </div>
-        <div>
-            <img src="images/animal-cell.png" alt="animal-cell">
+        <div class="img">
+            <img src="images/animal-cellresized.png" alt="animal-cell">
         </div>
     </section>
 
-    <h1>Organelas</h1>
+    <h1 id="org">Organelas</h1>
 
     <section id="nucleus">
-        <div>
+        <div class="img">
             <img src="images/nucleus.png" alt="nucleus">
         </div>
-        <div>
+        <div class="content">
             <h2>Núcleo</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic praesentium iste eaque blanditiis eum magni culpa, ducimus nostrum dicta odio quam voluptatibus libero tempore delectus! Fuga culpa praesentium aperiam aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto provident ea explicabo repellat, obcaecati ab sint quis eius, rem sequi cupiditate. Quae impedit quisquam dolores provident tempora unde maxime similique!</p>
         </div>
@@ -31,10 +32,10 @@
     </section>
 
     <section id="er">
-        <div>
+        <div class="img">
             <img src="images/endoplasmic-reticulum.png" alt="endoplasmic-reticulum">
         </div>
-        <div>
+        <div class="content">
             <h2>Retículo Endoplasmático Rugoso (RER)</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero impedit odio, saepe deleniti vero reprehenderit maxime, alias animi modi amet odit id quae incidunt! Tempore cupiditate beatae dolorum atque alias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae magni odio nam, rem rerum architecto assumenda minima, mollitia sed eligendi atque nisi impedit doloremque ducimus, quam debitis. Deleniti, iusto praesentium.</p>
         </div>
@@ -42,10 +43,10 @@
     </section>
 
     <section id="vacuole">
-        <div>
+        <div class="img">
             <img src="images/vacuole.png" alt="vacuole">
         </div>
-        <div>
+        <div class="content">
             <h2>Vacuolo</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur omnis corrupti ut, sapiente sequi deleniti. Est aliquam minima, maiores facere esse veritatis a explicabo aliquid dolorum consectetur ipsam inventore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio quasi dolor perferendis? Unde, tempora sint! Magni deleniti quam reiciendis vero accusamus magnam non! Iusto porro error necessitatibus alias est.</p>
         </div>
@@ -53,10 +54,10 @@
     </section>
 
     <section id="mitochondria">
-        <div>
+        <div class="img">
             <img src="images/mitochondria.png" alt="mitochondria">
         </div>
-        <div>
+        <div class="content">
             <h2>Mitocôndria</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur omnis corrupti ut, sapiente sequi deleniti. Est aliquam minima, maiores facere esse veritatis a explicabo aliquid dolorum consectetur ipsam inventore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio quasi dolor perferendis? Unde, tempora sint! Magni deleniti quam reiciendis vero accusamus magnam non! Iusto porro error necessitatibus alias est.</p>
         </div>
@@ -64,10 +65,10 @@
     </section>
 
     <section id="lysosome">
-        <div>
+        <div class="img">
             <img src="images/lysosomes.png" alt="lysosome">
         </div>
-        <div>
+        <div class="content">
             <h2>Lisossomo</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur omnis corrupti ut, sapiente sequi deleniti. Est aliquam minima, maiores facere esse veritatis a explicabo aliquid dolorum consectetur ipsam inventore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio quasi dolor perferendis? Unde, tempora sint! Magni deleniti quam reiciendis vero accusamus magnam non! Iusto porro error necessitatibus alias est.</p>
         </div>
@@ -75,10 +76,10 @@
     </section>
 
     <section id="golgi">
-        <div>
+        <div class="img">
             <img src="images/golgi.png" alt="golgi-complex">
         </div>
-        <div>
+        <div class="content">
             <h2>Complexo de Golgi</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur omnis corrupti ut, sapiente sequi deleniti. Est aliquam minima, maiores facere esse veritatis a explicabo aliquid dolorum consectetur ipsam inventore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio quasi dolor perferendis? Unde, tempora sint! Magni deleniti quam reiciendis vero accusamus magnam non! Iusto porro error necessitatibus alias est.</p>
         </div>
@@ -86,17 +87,18 @@
     </section>
 
     <section id="centrosome">
-        <div>
-            <div>
-                <img src="images/microtubules.png" alt="centrosome">
-            </div>
-            <h2>Microtúbulos</h2>
+        
+        <div class="img">
+            <img src="images/microtubules.png" alt="centrosome">
+        </div>
+        <div class="content">
+            <h2>Centrossomo</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur omnis corrupti ut, sapiente sequi deleniti. Est aliquam minima, maiores facere esse veritatis a explicabo aliquid dolorum consectetur ipsam inventore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio quasi dolor perferendis? Unde, tempora sint! Magni deleniti quam reiciendis vero accusamus magnam non! Iusto porro error necessitatibus alias est.</p>
         </div>
         
     </section>
     <footer>
-        <p>Site desenvolvido por Colaço para fins educativos </p>
+        <p>Site desenvolvido por colaco para fins educativos</p>
     </footer>
 </body>
 </html>

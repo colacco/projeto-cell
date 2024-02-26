@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoint:
+---------------------------------
+Pequenas Telas: até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas: Acima de 1200px
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+:root{
+    --cor1: #D06CFC;
+    --cor2: #725B7C;
+    --cor3: #E7B8FC;
+    --cor4: #67357C;
+    --cor5: #B893C9;
+}
+
+section#cell{
+    background-color: var(--cor1);
+    padding: 30px;
+}
+
+section#cell > div > h1{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+section#cell > div > p{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#cell > div > img{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 30%;
+}
+
+#org{
+    background-color: black;
+    text-align: center;
+}
+
+section#nucleus{
+    background-color: var(--cor2);
+    padding: 30px;
+}
+
+section#nucleus > div > h2{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+section#nucleus > div > p{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#nucleus > div > img{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 30%;
+}
+
+section#er{
+    background-color: var(--cor3);
+    padding: 30px;
+}
+
+section#er > div > h2{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+section#er > div > p{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#er > div > img{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 30%;
+}
+
+section#vacuole{
+    background-color: var(--cor4);
+    padding: 30px;
+}
+
+section#vacuole > div > h2{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+section#vacuole > div > p{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#vacuole > div > img{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 30%;
+}
+
+section#mitochondria{
+    background-color: var(--cor1);
+    padding: 30px;
+}
+
+section#mitochondria > div > h2{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+section#mitochondria > div > p{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#mitochondria > div > img{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 30%;
+}
+
+section#lysosome{
+    background-color: var(--cor2);
+    padding: 30px;
+}
+
+section#lysosome > div > h2{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+section#lysosome > div > p{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#lysosome > div > img{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 30%;
+}
+
+section#golgi{
+    background-color: var(--cor3);
+    padding: 30px;
+}
+
+section#golgi > div > h2{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+section#golgi > div > p{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#golgi > div > img{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 30%;
+}
+
+section#centrosome{
+    background-color: var(--cor4);
+    padding: 30px;
+}
+
+section#centrosome > div > h2{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+section#centrosome > div > p{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#centrosome > div > img{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    left: 30%;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}

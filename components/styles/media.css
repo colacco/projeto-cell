@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) and (max-width: 992px){ /*TABLET*/
+ 
+    p{
+        color: red;
+    }
+ 
+    section > div.img{
+        float: left;
+    }
+
+    section > div.content{
+    float: right;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){ /*DESKTOP*/
+
+}
+
+@media screen and (min-width: 1200px){ /*GRANDES TELAS*/
+
+}
