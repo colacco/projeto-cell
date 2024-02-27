@@ -66,38 +66,47 @@ section > div.img{
 }
 
 section#cell{
-    background-color: var(--cor1);
+    background-image: linear-gradient(45deg, var(--cor1), var(--cor4));
 }
 
 section#nucleus{
-    background-color: var(--cor2);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
 }
 
 section#er{
-    background-color: var(--cor3);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
 }
 
 section#vacuole{
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
 }
 
 section#mitochondria{
-    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor1));
 }
 
 section#lysosome{
-    background-color: var(--cor2);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
 }
 
 section#golgi{
-    background-color: var(--cor3);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
 }
 
 section#centrosome{
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
 }
 
 footer{
     background-color: black;
     text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: var(--cor1);
 }
