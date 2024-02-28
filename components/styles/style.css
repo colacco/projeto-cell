@@ -75,6 +75,7 @@ section > div > h2.title{
 section > div > p.text{
     margin-bottom: 20px;
     text-shadow: 1px 1px 1px black;
+    text-align: justify;
 }
 
 section > div.img1{

@@ -5,10 +5,14 @@
         width: 95vw;
     }
 
+    h1#org, footer{
+        width: 100vw;
+    }
+
     section > div.img{
         display: flex;
         float: left;
-        /*width: 50%;*/
+        width: 50%;
         height: 100%;
         
     }
