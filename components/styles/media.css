@@ -2,12 +2,13 @@
 
     section{
         height: 60vh;
+        width: 95vw;
     }
- 
+
     section > div.img{
         display: flex;
         float: left;
-        width: 50%;
+        /*width: 50%;*/
         height: 100%;
         
     }
@@ -16,6 +17,37 @@
         display: flex;
         flex-direction: column;
         float: right;
+        width: 50%;
+    }
+
+ 
+    section > div.img1{
+        display: flex;
+        float: left;
+        width: 50%;
+        height: 100%;
+        
+    }
+
+    section > div.content1{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 50%;
+    }
+
+    section > div.img2{
+        display: flex;
+        float: right;
+        width: 50%;
+        height: 100%;
+        
+    }
+
+    section > div.content2{
+        display: flex;
+        flex-direction: column;
+        float: left;
         width: 50%;
     }
 }

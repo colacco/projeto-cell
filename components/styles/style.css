@@ -16,6 +16,27 @@ Grandes Telas: Acima de 1200px
     color:white;
 }
 
+@keyframes animation1{
+    from{
+        transform: translateX(-386px);
+    }
+
+    to{
+        transform: translate(0px);
+    }
+}
+
+@keyframes animation2{
+    from{
+        transform: translateX(386px);
+    }
+
+    to{
+        transform: translate(0px);
+    }
+}
+
+
 :root{
     --cor1: #D06CFC;
     --cor2: #725B7C;
@@ -56,9 +77,18 @@ section > div > p.text{
     text-shadow: 1px 1px 1px black;
 }
 
-section > div.img{
+section > div.img1{
     margin: auto;
+    animation-name: animation1;
+    animation-duration: 2s;
 }
+
+section > div.img2{
+    margin: auto;
+    animation-name: animation2;
+    animation-duration: 2s;
+}
+
 
 #org{
     background-color: black;
